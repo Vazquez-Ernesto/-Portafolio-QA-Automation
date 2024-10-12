@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Blog Personal</title>
+    <link rel="stylesheet" href="style.css">
+<script src="js.js"></script>
+
+    
+     <div class="contenedor-header">
+        <header>
+            <div class="logo">
+                <a href="#">Ernesto Vazquez</a>
+            </div>
+            <nav id="nav">
+                <ul>
+                    <li><a href="#inicio" onclick="seleccionar()">INICIO</a></li>
+                    <li><a href="#sobremi" onclick="seleccionar()">SOBRE MI</a></li>
+                    <li><a href="#skills" onclick="seleccionar()">SKILLS</a></li>
+                    <li><a href="#curriculum" onclick="seleccionar()">CURRICULUM</a></li>                 
+                </ul>
+            </nav>
+            <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </header>
+    </div>
+
+    <!-- SECCION INICIO -->
+    <section id="inicio" class="inicio" style="margin-top: 50px; ">
+        <div class="contenido-banner">
+            <div class="contenedor-img">
+                <img src="./Foto de logo  1.jpg" alt="Ernesto Vazquez">
+            </div>
+            <h1>Ernesto Vazquez</h1>
+            <h2>QA Engineer/Dev Front-Junior</h2>
+            <div class="redes">
+                <a href="https://www.linkedin.com/in/ernestoavazquez/" target="_blank"> <i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+
+
+</section>
+<!-- SECCION SOBRE MI -->
+<section id="sobremi" class="sobremi">
+    <div class="contenido-seccion">
+        <h2>Sobre Mí</h2>
+        <p><span>Hola, soy Ernesto Vázquez</span> un apasionado por la tecnología y el arte de resolver problemas. Mi viaje en el mundo del desarrollo y la automatización comenzó con una simple curiosidad: ¿cómo funcionan las cosas por dentro? Hoy, esa curiosidad me ha llevado a dominar una variedad de herramientas y lenguajes que me permiten construir y optimizar soluciones digitales.</p>
+
+        <div class="fila">
+            <!-- datos personales -->
+            <div class="col">
+                <h3>Datos Personales</h3>
+                <ul>
+                    <li>
+                        <strong>Cumpleaños</strong>
+                        28-02-2001
+                    </li>
+                    <li>
+                        <strong>Teléfono</strong>
+                        3704824222
+                    </li>
+                    <li>
+                        <strong>Email</strong>
+                        ernestoalexisvazquez@gmail.com
+                    </li>
+                    <li>
+                        <strong>Dirección</strong>
+                        Buenos Aires (CABA), Argentina
+                    </li>
+                    <li>
+                        <strong>Cargo</strong>
+                        <span>QA ANALYST MANUAL/AUTOMATION</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- intereses -->
+            <div class="col">
+                <h3>Intereses</h3>
+                <div class="contenedor-intereses">
+                    <div class="interes">
+                        <i class="fa-solid fa-ghost"></i>
+                        <span>Juegos</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-headphones"></i>
+                        <span>Musica</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-plane"></i>
+                        <span>Viajar</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-person-hiking"></i>
+                        <span>Deporte</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-solid fa-book"></i>
+                        <span>Libros</span>
+                    </div>
+                    <div class="interes">
+                        <i class="fa-sharp-duotone fa-solid fa-code"></i>
+                        <span>Desarrollo</span>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        <button>
+            <a href="./cv.pdf" target="_blank" id="download-cv" download="Mi_CV.pdf" class="descargar-cv">
+                Descargar CV <i class="fa-solid fa-download"></i>
+              </a>                  
+            <span class="overlay"></span>
+        </button>
+    </div>
+
+</section>
+<!-- SECCION SKILLS -->
+<section class="skills" id="skills" class="progreso ">
+    <div class="contenido-seccion">
+        <h2>Skills</h2>
+        <div class="fila">
+            <!-- Technical Skill -->
+            <div class="col">
+                <h3>Professional Skills</h3>
+                <div class="skill">
+                    <span>Testing Funcional</span>
+                    <div class="barra-skill">
+                        <div class="progreso comunicacion">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Pruebas De Stress</span>
+                    <div class="barra-skill">
+                        <div class="progreso pruebas-de-stress">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>APITesting</span>
+                    <div class="barra-skill">
+                        <div class="progreso api">
+                            <span>75%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>SQL</span>
+                    <div class="barra-skill">
+                        <div class="progreso sql">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Automation</span>
+                    <div class="barra-skill">
+                        <div class="progreso Automation">
+                            <span>50%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Professional Skills -->
+            <div class="col">
+                <h3>Professional Skills</h3>
+                <div class="skill">
+                    <span>Comunicacion</span>
+                    <div class="barra-skill">
+                        <div class="progreso comunicacion">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Trabajo en Equipo</span>
+                    <div class="barra-skill">
+                        <div class="progreso trabajo">
+                            <span>90%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Creatividad</span>
+                    <div class="barra-skill">
+                        <div class="progreso creatividad">
+                            <span>70%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Dedicacion</span>
+                    <div class="barra-skill">
+                        <div class="progreso dedicacion">
+                            <span>100%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>Gestion De Proyectos</span>
+                    <div class="barra-skill">
+                        <div class="progreso Proyect">
+                            <span>25%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- SECCIÓN CURRICULUM -->
+<section id="curriculum" class="curriculum">
+<div class="contenido-seccion">
+    <h2>Curriculum</h2>
+    <div class="fila">
+        <div class="col derecha">
+            <h3>Experiencia de trabajo</h3>
+
+            <div class="item der">
+                <h4>Analista Superior de Garantía de Calidad</h4>
+                <span class="casa">Nave Negocios</span>
+                <span class="fecha">Dic. 2022 - Actualidad</span>
+                <p>
+                    Trabajo como QA en la plataforma Nave, asegurando la calidad de aplicaciones web y sitios de mercado. Participación activa en metodologías ágiles SCRUM, involucrado en reuniones diarias, revisiones, retrospectivas y planeamiento de sprints. 
+                    Me encargo de analizar los requisitos de las User Stories, diseñar y ejecutar casos de prueba (regresión, E2E, exploratorias), y gestionar los reportes y validaciones de bugs en entornos UAT. Además, utilizo Azure DevOps para la gestión de pruebas y trazabilidad de requisitos.
+                </p>
+                <div class="conectord">
+                    <div class="circulod"></div>
+                </div>
+            </div>
+
+            <div class="item der">
+                <h4>Analista de Calidad</h4>
+                <span class="casa">UPEX</span>
+                <span class="fecha">Jun. 2021 - Ene. 2022</span>
+                <p>
+                    Durante mi tiempo en UPEX, fui moderador de la Academia Upex, donde impartí inducción a nuevos miembros y corregí User Stories bajo metodologías ágiles (Scrum) y BDD. Me especialicé en el diseño y ejecución de pruebas utilizando X-ray, abarcando pruebas exploratorias, smoke y regresión. También, realizaba consultas SQL y gestionaba el seguimiento de tareas y reportes de bugs en Jira.
+                </p>
+                <div class="conectord">
+                    <div class="circulod"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+</body>
+</html>
