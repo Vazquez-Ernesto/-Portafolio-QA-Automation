@@ -26,4 +26,3 @@ jobs:
 
       - name: 🔹 Ejecutar pruebas de Cypress en modo Headless
         run: npx cypress run
-s

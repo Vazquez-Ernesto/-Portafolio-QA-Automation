@@ -1,0 +1,24 @@
+{
+  "name": "-portafolio-qa-automation",
+  "version": "1.0.0",
+  "description": "Portafolio Ssr QA automation",
+  "main": "js.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vazquez-Ernesto/-Portafolio-QA-Automation.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Vazquez-Ernesto/-Portafolio-QA-Automation/issues"
+  },
+  "homepage": "https://github.com/Vazquez-Ernesto/-Portafolio-QA-Automation#readme",
+  "devDependencies": {
+    "cypress": "^14.0.2"
+  }
+}
