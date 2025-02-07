@@ -200,7 +200,7 @@ it('Validar Titulo de la seccion "Curriculum"', () => {
 it('Validar Subtitulo de la seccion "Curriculum"', () => {
     cy.get('#curriculum > .contenido-seccion > .fila > .col > h3').should('have.text', 'Experiencia de trabajo')
 }) 
-it.only('Verifica que la sección "Experiencia de trabajo" esté visible', () => {
+it('Verifica que la sección "Experiencia de trabajo" esté visible', () => {
   cy.contains('h3', 'Experiencia de trabajo').should('be.visible');
 });
 
@@ -223,7 +223,7 @@ const validarExperiencia = (titulo, empresa, fecha, palabrasClave) => {
 };
 
 // Validar cada experiencia laboral
-it.only('Valida la experiencia en Getnet', () => {
+it('Valida la experiencia en Getnet', () => {
   validarExperiencia(
     'QA SSR AUTOMATION',
     'Getnet',
