@@ -1,0 +1,28 @@
+name: Cypress Tests
+
+on:
+  push:
+    branches:
+      - main  # Se ejecutará cada vez que hagas push a la rama main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  cypress-run:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: 🔹 Checkout del código
+        uses: actions/checkout@v3
+
+      - name: 🔹 Configurar Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: 🔹 Instalar dependencias
+        run: npm install
+
+      - name: 🔹 Ejecutar pruebas de Cypress en modo Headless
+        run: npx cypress run
