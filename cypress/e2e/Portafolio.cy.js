@@ -223,11 +223,20 @@ const validarExperiencia = (titulo, empresa, fecha, palabrasClave) => {
 };
 
 // Validar cada experiencia laboral
+it('Valida la experiencia en Telecom Argentina', () => {
+  validarExperiencia(
+    'QA Analyst',
+    'Telecom Argentina',
+    'Jul. 2025 - actualidad',
+    ['QA Analyst', 'telecomunicaciones', 'funcionales', 'integración']
+  );
+});
+
 it('Valida la experiencia en Getnet', () => {
   validarExperiencia(
     'QA SSR AUTOMATION',
     'Getnet',
-    'Ene. 2025 - actualidad',
+    'Ene. 2025 - 6 meses',
     ['QA', 'pruebas de aceptación', 'microservicios', 'certificación de calidad']
   );
 });
