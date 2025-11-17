@@ -17,8 +17,5 @@
   "bugs": {
     "url": "https://github.com/Vazquez-Ernesto/-Portafolio-QA-Automation/issues"
   },
-  "homepage": "https://github.com/Vazquez-Ernesto/-Portafolio-QA-Automation#readme",
-  "devDependencies": {
-    "cypress": "^14.0.2"
-  }
+  "homepage": "https://github.com/Vazquez-Ernesto/-Portafolio-QA-Automation#readme"
 }
